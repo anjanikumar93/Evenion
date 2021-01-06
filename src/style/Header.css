@@ -1,0 +1,32 @@
+.myHeader {
+    background-color: blue;
+    height: 10vh;
+}
+
+.myList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2196f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #myNotes {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #myNotes p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #myNotes a:hover {
+    background-color: #111;
+  }
